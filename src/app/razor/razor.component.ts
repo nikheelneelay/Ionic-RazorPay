@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 
 declare var RazorpayCheckout: any;
 
 @Component({
-  selector: 'app-folder',
-  templateUrl: './folder.page.html',
-  styleUrls: ['./folder.page.scss'],
+  selector: 'app-razor',
+  templateUrl: './razor.component.html',
+  styleUrls: ['./razor.component.scss'],
 })
-export class FolderPage implements OnInit {
+export class RazorComponent implements OnInit {
+
   razor_key = 'rzp_test_wH84Xo2S2l6iBp';
   paymentAmount: number = 100;
 
@@ -51,4 +51,3 @@ export class FolderPage implements OnInit {
   }
 
 }
-

@@ -1,5 +1,7 @@
 {
   "name": "payment-razorpay",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
